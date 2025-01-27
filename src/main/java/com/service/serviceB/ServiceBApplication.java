@@ -6,10 +6,10 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import reactor.core.publisher.Hooks;
 
 @SpringBootApplication
-public class SecondApplication {
+public class ServiceBApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(SecondApplication.class, args);
+		SpringApplication.run(ServiceBApplication.class, args);
 	}
 
 	@PostConstruct

@@ -12,7 +12,8 @@ public class DemoController {
     private static final Logger log = LoggerFactory.getLogger(DemoController.class);
 
     @GetMapping("/helloServiceB")
-    public Mono<String> greetings() {
+    public Mono<String> helloServiceB() {
+               log.info("request received");
                 return Mono.just("hello from serviceB");
     }
 }
